@@ -5,6 +5,6 @@
   <title>Cientistas revelam o</title>
 </head>
 <body>
-    <?php echo "<h1>Olá, mundo!</h1>" ?>
+    <?php echo "<h1>oi!</h1>" ?>
 </body>
 </html>

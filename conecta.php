@@ -1,12 +1,12 @@
 <?php
-// Definindo os dados de conexão com o banco MySQL
-$host = "localhost";
+
+$host = "127.0.0.1";
 $banco = "banco_de_dados";
 $usuario = "root";
 $senha = "";
 
 try {
-    // Criando uma instância PDO para conectar ao banco MySQL
+    
     $conexao = new PDO("mysql:host=$host;dbname=$banco;charset=utf8", $usuario, $senha);
     
     // Definindo o modo de erro para exceções

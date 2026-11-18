@@ -6,7 +6,7 @@ $cpf = $_POST['cpf'];
 $senha = $_POST['senha'];
 
 
-$sql = "SELECT * FROM aluno WHERE cpf = :cpf AND senha = :senha";
+$sql = "SELECT * FROM aluno WHERE cpf = '$cpf' AND senha = '$senha'";
 
 try {
     

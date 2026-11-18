@@ -1,9 +1,9 @@
 <?php
 
 $host = "sql107.infinityfree.com";
-$banco = "banco_de_dados";
-$usuario = "root";
-$senha = "";
+$banco = "if0_43413206_segredo";
+$usuario = "if0_43413206";
+$senha = "tipohatipoque";
 
 try {
     

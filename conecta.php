@@ -1,6 +1,6 @@
 <?php
 
-$host = "127.0.0.1";
+$host = "sql107.infinityfree.com";
 $banco = "banco_de_dados";
 $usuario = "root";
 $senha = "";
